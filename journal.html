@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Learning Journal | Node.js Journey</title>
+    <meta name="description" content="My journey learning backend development with Node.js - documenting daily progress, topics covered, and practical exercises">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="journal.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <header class="journal-header">
+            <div class="header-content">
+                <h1 class="main-title">
+                    <span class="title-icon">📚</span>
+                    Backend Learning Journal
+                </h1>
+                <p class="subtitle">My journey mastering Node.js & backend development</p>
+                <a href="https://github.com/DeeAjith/node_learn" target="_blank" class="github-link">
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    <span>View on GitHub</span>
+                </a>
+                <div class="header-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Days</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Topics</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="journal-content">
+            <!-- Day 1 Entry -->
+            <article class="day-entry" data-day="1">
+                <div class="day-header">
+                    <div class="day-badge">
+                        <span class="day-number">Day 1</span>
+                        <span class="day-status active">Completed</span>
+                    </div>
+                    <div class="day-date">Foundation & Core Concepts</div>
+                </div>
+
+                <div class="entry-content">
+                    <section class="topics-section">
+                        <h3 class="section-title">📖 Topics Covered</h3>
+                        <div class="topics-grid">
+                            <div class="topic-card">
+                                <div class="topic-icon">🎯</div>
+                                <h4>Introduction to Node.js</h4>
+                                <p>Understanding what Node.js is and why it's used</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">📜</div>
+                                <h4>History</h4>
+                                <p>Initially written by Ryan Dahl in 2009, now maintained by Node.js Foundation</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">⚡</div>
+                                <h4>Node.js vs Browser</h4>
+                                <p>Runtime environment for executing JavaScript on the server-side</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">🚀</div>
+                                <h4>Running Node.js Code</h4>
+                                <p>Created index.ts file & used http module to create a server</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">📦</div>
+                                <h4>Modules</h4>
+                                <p>Created log.ts file & used it in index.ts</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">🔄</div>
+                                <h4>Creating & Importing</h4>
+                                <p>Imported log.ts file and used logInfo function to log messages</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">🌍</div>
+                                <h4>Global Keyword</h4>
+                                <p>In browsers we have window object but in node.js we have only top-level scope in same module</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="exercises-section">
+                        <h3 class="section-title">💻 Exercises & Projects</h3>
+                        <div class="exercise-card">
+                            <div class="exercise-header">
+                                <span class="exercise-badge">Project 1</span>
+                                <span class="exercise-tech">HTTP • Chalk • TypeScript</span>
+                            </div>
+                            <p class="exercise-description">
+                                Created a simple server using index.js & log.ts where I used http module to create a server & logInfo function to log messages. Also, I used chalk module to log messages in different colors.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </article>
+
+            <!-- Day 2 Entry -->
+            <article class="day-entry" data-day="2">
+                <div class="day-header">
+                    <div class="day-badge">
+                        <span class="day-number">Day 2</span>
+                        <span class="day-status active">Completed</span>
+                    </div>
+                    <div class="day-date">Advanced Concepts & Real APIs</div>
+                </div>
+
+                <div class="entry-content">
+                    <section class="topics-section">
+                        <h3 class="section-title">📖 Topics Covered</h3>
+                        <div class="topics-grid">
+                            <div class="topic-card">
+                                <div class="topic-icon">⚡</div>
+                                <h4>NPX</h4>
+                                <p>Tool that allows you to run a package without installing it first</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">📦</div>
+                                <h4>Installation Packages</h4>
+                                <p>Global installation with -g flag, Local installation with --save flag</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">🔄</div>
+                                <h4>Updating Packages</h4>
+                                <p>Update packages using npm update &lt;package-name&gt;</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">▶️</div>
+                                <h4>Running Scripts</h4>
+                                <p>Run scripts using npm run &lt;script-name&gt; in package.json</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">🏢</div>
+                                <h4>NPM Workspaces</h4>
+                                <p>Feature that allows managing multiple packages in a single repository</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">📝</div>
+                                <h4>Introduction to NPM</h4>
+                                <p>Package manager for Node.js</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">🔢</div>
+                                <h4>Semantic Versioning</h4>
+                                <p class="needs-review">Need to learn detailed ⚠️</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">⏳</div>
+                                <h4>Writing Async Code</h4>
+                                <p>Promises - an object that may produce a single value some time in the future</p>
+                            </div>
+
+                            <div class="topic-card">
+                                <div class="topic-icon">📦</div>
+                                <h4>Creating Packages</h4>
+                                <p class="needs-review">Need to cover this more ⚠️</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="exercises-section">
+                        <h3 class="section-title">💻 Exercises & Projects</h3>
+
+                        <div class="exercise-card">
+                            <div class="exercise-header">
+                                <span class="exercise-badge">Project 2</span>
+                                <span class="exercise-tech">FakerJS • Express</span>
+                            </div>
+                            <p class="exercise-description">
+                                Created Fake user GET /api/users API. Used fakerjs to generate fake users.
+                            </p>
+                            <div class="exercise-link">📄 day-2.0.js</div>
+                            <a href="https://github.com/DeeAjith/node_learn/blob/main/day-2.0.js" target="_blank" class="exercise-anchor"></a>
+                        </div>
+
+                        <div class="exercise-card">
+                            <div class="exercise-header">
+                                <span class="exercise-badge">Project 3</span>
+                                <span class="exercise-tech">Express • PostgreSQL • Dotenv • PG • CORS</span>
+                            </div>
+                            <p class="exercise-description">
+                                Created a day-2.1 server with expressjs + postgresql + dotenvx + pg + cors, and created a POST & GET API for users.
+                            </p>
+                            <div class="exercise-link">📄 day-2.1.js</div>
+                            <a href="https://github.com/DeeAjith/node_learn/blob/main/day-2.1.js" target="_blank" class="exercise-anchor"></a>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </main>
+
+        <footer class="journal-footer">
+            <div class="footer-content">
+                <p>🚀 Learning from roadmap.sh</p>
+                <p class="footer-note">Journey started: December 2024</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="journal.js"></script>
+</body>
+</html>
