@@ -1,6 +1,11 @@
 # Node.js Learning Workspace
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-node__learn-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeeAjith/node_learn)
+
+🔗 **Repository**: [https://github.com/DeeAjith/node_learn](https://github.com/DeeAjith/node_learn)
+
 This project demonstrates **npm workspaces** - a feature that allows you to manage multiple packages within a single repository.
+
 
 ## 📁 Project Structure
 
