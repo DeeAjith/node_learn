@@ -1,0 +1,10 @@
+{
+  "name": "@node-learn/app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "Main application package that uses other workspace packages",
+  "dependencies": {
+    "@node-learn/utils": "*"
+  }
+}

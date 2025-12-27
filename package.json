@@ -1,9 +1,30 @@
 {
+  "name": "node-learn-workspace",
+  "version": "1.0.0",
   "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "dependencies": {
-    "chalk": "^5.6.2"
+    "@dotenvx/dotenvx": "^1.51.2",
+    "@faker-js/faker": "^10.1.0",
+    "chalk": "^5.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "faker": "^5.5.3",
+    "npmlog": "^7.0.1",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^25.0.3"
+  },
+  "scripts": {
+    "start": "dotenvx run -f .env -- node day-2.1.js",
+    "dev": "dotenvx run -f .env -- nodemon day-2.1.js",
+    "test": "echo \"Running tests in all workspaces...\"",
+    "build": "echo \"Building all workspaces...\""
   }
 }
